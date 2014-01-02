@@ -1,0 +1,139 @@
+$span-color:rgb( 46, 204, 113 );
+$h1-main-color:rgb( 255, 255, 255 );
+$p-color:rgb( 255, 255, 255 );
+
+
+/*===========================================================================================
+
+								Global
+
+=============================================================================================*/
+
+* {
+    text-rendering: optimizeLegibility
+}
+
+body {
+    background-image: url('../images/bg.jpg');
+    background-attachment: inherit;
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    &:hover {
+        text-decoration:none;
+    }
+}
+
+/*===========================================================================================
+
+								Header
+
+=============================================================================================*/
+
+header {
+    padding: 20px 0 20px 0;
+    margin:47px 0 0 0;
+    background-image: -moz-linear-gradient( 0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%);
+    h1 {
+        font-size: 32px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: $h1-main-color;
+        text-transform: uppercase;
+        -moz-transform: matrix( 1.15603030095156,0,0,1.15471964554816,0,0);
+        -webkit-transform: matrix( 1.15603030095156,0,0,1.15471964554816,0,0);
+        -ms-transform: matrix( 1.15603030095156,0,0,1.15471964554816,0,0);
+        font-weight: bold;
+        span {
+            color:$span-color;
+        }
+    }
+    .logo {
+        img {
+            margin:0 5px 0 0;
+        }
+    }
+}
+
+
+/*===========================================================================================
+
+								Navigation
+
+=============================================================================================*/
+
+.nav-pills {
+    margin:20px 0 0 0;
+    li+li {
+    margin-left: 0;
+    }
+}
+
+/*===========================================================================================
+
+								Sections
+
+=============================================================================================*/
+section.home {
+    margin:28px 0 0 0;
+    h3 {
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    color: rgb( 255, 255, 255 );
+    text-align: left;
+    -moz-transform: matrix( 1.02499103183218,0,0,1.10090670903998,0,0);
+    -webkit-transform: matrix( 1.02499103183218,0,0,1.10090670903998,0,0);
+    -ms-transform: matrix( 1.02499103183218,0,0,1.10090670903998,0,0);
+    }
+    
+    .cta {
+        img {
+        margin:0 16px 0 0;
+        }
+    }
+    .alert {
+        h3 {
+            font-size: 19px;
+            font-family: 'Lato', sans-serif;
+            color: rgb( 52, 73, 94 );
+            font-weight: bold;
+            -moz-transform: matrix( 1,0,0,1.00002694106073,0,0);
+            -webkit-transform: matrix( 1,0,0,1.00002694106073,0,0);
+            -ms-transform: matrix( 1,0,0,1.00002694106073,0,0);
+        }
+        p {
+            font-size: 16px;
+            font-family: 'Lato', sans-serif;
+            color: rgb( 44, 62, 80 );
+            line-height: 1.625;
+            -moz-transform: matrix( 1,0,0,1.00002694106073,0,0);
+            -webkit-transform: matrix( 1,0,0,1.00002694106073,0,0);
+            -ms-transform: matrix( 1,0,0,1.00002694106073,0,0);
+        }
+    }
+}
+
+/*===========================================================================================
+
+								Footer
+
+=============================================================================================*/
+
+footer {
+    padding:10px 0 20px 0;
+    p {
+        font-size: 12px;
+        font-family: 'Lato', sans-serif;
+        color:$p-color;
+        line-height: 1.5;
+        text-align: center;
+    }
+}
+

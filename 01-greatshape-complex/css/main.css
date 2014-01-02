@@ -1,0 +1,135 @@
+/*===========================================================================================
+
+								Global
+
+=============================================================================================*/
+/* line 12, main.scss */
+* {
+  text-rendering: optimizeLegibility;
+}
+
+/* line 16, main.scss */
+body {
+  background-image: url("../images/bg.jpg");
+  background-attachment: inherit;
+  background-position: top center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 28, main.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/*===========================================================================================
+
+								Header
+
+=============================================================================================*/
+/* line 39, main.scss */
+header {
+  padding: 20px 0 20px 0;
+  margin: 47px 0 0 0;
+  background-image: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -ms-linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+}
+/* line 45, main.scss */
+header h1 {
+  font-size: 32px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  -moz-transform: matrix(1.15603, 0, 0, 1.15472, 0, 0);
+  -webkit-transform: matrix(1.15603, 0, 0, 1.15472, 0, 0);
+  -ms-transform: matrix(1.15603, 0, 0, 1.15472, 0, 0);
+  font-weight: bold;
+}
+/* line 54, main.scss */
+header h1 span {
+  color: #2ecc71;
+}
+/* line 59, main.scss */
+header .logo img {
+  margin: 0 5px 0 0;
+}
+
+/*===========================================================================================
+
+								Navigation
+
+=============================================================================================*/
+/* line 72, main.scss */
+.nav-pills {
+  margin: 20px 0 0 0;
+}
+/* line 74, main.scss */
+.nav-pills li + li {
+  margin-left: 0;
+}
+
+/*===========================================================================================
+
+								Sections
+
+=============================================================================================*/
+/* line 84, main.scss */
+section.home {
+  margin: 28px 0 0 0;
+}
+/* line 86, main.scss */
+section.home h3 {
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-align: left;
+  -moz-transform: matrix(1.02499, 0, 0, 1.10091, 0, 0);
+  -webkit-transform: matrix(1.02499, 0, 0, 1.10091, 0, 0);
+  -ms-transform: matrix(1.02499, 0, 0, 1.10091, 0, 0);
+}
+/* line 97, main.scss */
+section.home .cta img {
+  margin: 0 16px 0 0;
+}
+/* line 102, main.scss */
+section.home .alert h3 {
+  font-size: 19px;
+  font-family: 'Lato', sans-serif;
+  color: #34495e;
+  font-weight: bold;
+  -moz-transform: matrix(1, 0, 0, 1.00003, 0, 0);
+  -webkit-transform: matrix(1, 0, 0, 1.00003, 0, 0);
+  -ms-transform: matrix(1, 0, 0, 1.00003, 0, 0);
+}
+/* line 111, main.scss */
+section.home .alert p {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  color: #2c3e50;
+  line-height: 1.625;
+  -moz-transform: matrix(1, 0, 0, 1.00003, 0, 0);
+  -webkit-transform: matrix(1, 0, 0, 1.00003, 0, 0);
+  -ms-transform: matrix(1, 0, 0, 1.00003, 0, 0);
+}
+
+/*===========================================================================================
+
+								Footer
+
+=============================================================================================*/
+/* line 129, main.scss */
+footer {
+  padding: 10px 0 20px 0;
+}
+/* line 131, main.scss */
+footer p {
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  line-height: 1.5;
+  text-align: center;
+}
